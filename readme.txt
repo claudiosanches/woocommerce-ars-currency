@@ -1,6 +1,6 @@
 === WooCommerce ARS Currency ===
 Contributors: claudiosanches
-Tags: ecommerce, e-commerce, commerce, wordpress ecommerce, checkout, payment, payment gateway, mercadopago
+Tags: ecommerce, e-commerce, commerce, wordpress ecommerce, currency, mercadopago, argentine
 Requires at least: 3.0
 Tested up to: 3.4.2
 Stable tag: 1.0
