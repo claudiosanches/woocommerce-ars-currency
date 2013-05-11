@@ -3,8 +3,8 @@
 **Donate link:** http://claudiosmweb.com/doacoes/  
 **Tags:** ecommerce, e-commerce, commerce, wordpress ecommerce, currency, mercadopago, argentine  
 **Requires at least:** 3.0  
-**Tested up to:** 3.5  
-**Stable tag:** 1.0  
+**Tested up to:** 3.5.1  
+**Stable tag:** 2.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -37,6 +37,10 @@ Works with [WooCommerce MercadoPago](http://wordpress.org/extend/plugins/woocomm
 
 
 ## Changelog ##
+
+### 2.0 =###
+
+* Updated to WooCommerce 2.0.
 
 ### 1.0 ###
 

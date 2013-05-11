@@ -5,11 +5,11 @@
  * Description: Adds ARS (Argentine peso) currency in WooCommerce
  * Author: claudiosanches
  * Author URI: http://www.claudiosmweb.com/
- * Version: 1.0
+ * Version: 2.0
  * License: GPLv2 or later
  */
 
-if ( !class_exists( 'WC_ARS_Currency' ) ) {
+if ( ! class_exists( 'WC_ARS_Currency' ) ) {
 
     /**
      * Add ARS Currency in WooCommerce.
@@ -46,7 +46,7 @@ if ( !class_exists( 'WC_ARS_Currency' ) ) {
          * @return array             Currencies with ARS.
          */
         public function add_currency( $currencies ) {
-            $currencies['ARS'] = __( 'Argentine peso (&#36;)', 'wcars' );
+            $currencies['ARS'] = __( 'Argentine peso', 'wcars' );
             asort( $currencies );
 
             return $currencies;
