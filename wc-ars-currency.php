@@ -22,11 +22,11 @@ if ( ! class_exists( 'WC_ARS_Currency' ) ) {
         public function __construct() {
 
             // Actions
-            add_action( 'plugins_loaded', array( &$this, 'load_textdomain' ), 0 );
+            add_action( 'plugins_loaded', array( $this, 'load_textdomain' ), 0 );
 
             // Filters.
-            add_filter( 'woocommerce_currencies', array( &$this, 'add_currency' ) );
-            add_filter( 'woocommerce_currency_symbol', array( &$this, 'currency_symbol' ), 1, 2 );
+            add_filter( 'woocommerce_currencies', array( $this, 'add_currency' ) );
+            add_filter( 'woocommerce_currency_symbol', array( $this, 'currency_symbol' ), 1, 2 );
         }
 
         /**
